@@ -1,0 +1,285 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "c04f75e6-dfcb-4b9e-a3e7-ca7583d285b5": {
+          "type": "1",
+          "settings": {
+            "heading": "",
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 40,
+            "text_lh": 56,
+            "text_fw": 300,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 35,
+            "text_lh_mb": 46,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        },
+        "7cd255d5-40e9-4da7-8d3d-be1407a27726": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#868686",
+            "brc_mgb": 5
+          }
+        }
+      },
+      "block_order": [
+        "c04f75e6-dfcb-4b9e-a3e7-ca7583d285b5",
+        "7cd255d5-40e9-4da7-8d3d-be1407a27726"
+      ],
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#ffffff",
+        "overlay": 0,
+        "padding": 10,
+        "paddingmb": 0,
+        "mg_b": 20,
+        "mg_bmb": 35,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "main": {
+      "type": "main-store-locator",
+      "blocks": {
+        "store_wdYHXW": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G Alabang Town Center",
+            "latitude": "14.423254227781516",
+            "longitude": "121.02996465562403",
+            "content": "<p><strong>Address:</strong> <br/>Space 187 G/F Alabang Town Center, Alabang Muntinlupa City<br/><strong>Mall Hours</strong>: <br/>Mon-Fri  11:00am - 9:00pm <br/>Sat-Sun  10:00am - 9:00pm</p>"
+          }
+        },
+        "store_VLFwqd": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G Ayala Center Cebu",
+            "latitude": "10.318495382467857",
+            "longitude": "123.90514844633347",
+            "content": "<p><strong>Address: <br/></strong>2/L208-B Ayala CTR Cebu Business Park,Barrio Luz Cebu City<br/><strong>Mall Hours</strong>:<br/>Sun-Thurs 10am-9pm<br/>Fri-Sat 10am -10pm</p>"
+          }
+        },
+        "store_Qwph3d": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G Ayala Malls Abreeza",
+            "latitude": "7.09122500155949",
+            "longitude": "125.61128022423918",
+            "content": "<p><strong>Address: <br/></strong>Space 2131 Abreeza Mall JP Laurel Ave. Davao City<br/><strong>Mall Hours</strong>: <br/>Mon-Sun 10am-9pm</p>"
+          }
+        },
+        "store_jftr3x": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G Ayala Malls Capital Central",
+            "latitude": "10.677214809748012",
+            "longitude": "122.94955516723864",
+            "content": "<p><strong>Address: <br/></strong>2nd  Floor Space no. 2094  Ayala Malls Capitol Central Bacolod City<br/><strong>Mall Hours</strong>: <br/>Mon-Thu 10am-9pm<br/>Fri-Sun 10am- 10pm</p>"
+          }
+        },
+        "store_bHhqmN": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G Eastwood Mall",
+            "latitude": "14.610981749540297",
+            "longitude": "121.0798296469781",
+            "content": "<p><strong>Address:</strong> <br/>Unit A222A  2nd Floor Eastwood Mall , Eastwood Cyberpark Bagumbayan Quezon City<br/><strong>Mall Hours</strong>: <br/>Mon-Sun 10am - 10pm</p>"
+          }
+        },
+        "ebe283f8-17e8-4ea4-a66c-edb505cbef27": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G Glorietta 2",
+            "latitude": "14.551924927283055",
+            "longitude": "121.02532848994083",
+            "content": "<p><strong>Address: <br/></strong>2-037 2nd level New Glorietta 2 Ayala Center, San Lorenzo Makati City<br/><strong>Mall Hours</strong>:<br/>Mon-Thurs 10:00am-9:00pm<br/>Fri-Sun 10:00am - 10:00pm</p>"
+          }
+        },
+        "store_JRcUzD": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G Robinson Place Manila",
+            "latitude": "14.577825532261345",
+            "longitude": "120.98378560648077",
+            "content": "<p><strong>Address: <br/></strong>2nd level Pedro Gill Robinsons Place Manila Adriatico cor Pedro Gil Manila<br/><strong>Mall Hours</strong>:<br/>Mon-Sun 10:00AM - 10:00pm</p>"
+          }
+        },
+        "store_4EKpaD": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G Shangri-La Plaza",
+            "latitude": "14.580871098888196",
+            "longitude": "121.05604120419461",
+            "content": "<p><strong>Address: <br/></strong>U 419-420 Main Wing Shangrila Plaza Edsa Cor. Shaw blvd Wack Wack Mandaluyong<br/><strong>Mall Hours</strong>:<br/>Mon-Sun 10 am - 9pm</p>"
+          }
+        },
+        "store_tyFFe3": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G SM City Clark",
+            "latitude": "15.167357272364528",
+            "longitude": "120.58016107074623",
+            "content": "<p><strong>Address: <br/></strong>1128 SM City Clark, M.A Roxas Street, Malabanias  Angeles City Pampanga 2009<br/><strong>Mall Hours</strong>:<br/>Mon-Sun 10am - 9pm</p>"
+          }
+        },
+        "store_BrYpBR": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G SM City Fairview",
+            "latitude": "14.734665886025486",
+            "longitude": "121.05741246097831",
+            "content": "<p><strong>Address: <br/></strong>057 SM City Fairview, Quirino Highway Corner Regalado Avenue Greater Lagro, Quezon City<br/><strong>Mall Hours</strong>:<br/>Sun-Thu 10am - 9pm<br/>Fri-Sat 10am - 10pm</p>"
+          }
+        },
+        "store_f743hw": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G SM City Iloilo",
+            "latitude": "10.714600999966537",
+            "longitude": "122.55101671232855",
+            "content": "<p><strong>Address: <br/></strong>2/F SM City IloIlo Diversion Road , Brgy. Bolilao Mandurriao IloIlo City</p><p><strong>Mall Hours</strong>:<br/>Mon-Sun 10am-10pm</p>"
+          }
+        },
+        "store_7NwF7Y": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G SM City San Lazaro",
+            "latitude": "14.618077105785108",
+            "longitude": "120.9856215416253",
+            "content": "<p><strong>Address: <br/></strong>Unit 288 2nd level SM City San Lazaro Felix Huertas St. Santa Cruz, Manila<br/><strong>Mall Hours</strong>:<br/>Sun-Thurs 10am-9pm<br/>Fri-Sat 10am -10pm</p>"
+          }
+        },
+        "store_gx3Mpr": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G SM Lanang Premier",
+            "latitude": "7.099080398573593",
+            "longitude": "125.6311297267321",
+            "content": "<p><strong>Address: <br/></strong>285 2/F SM Lanang Premier J.P Laurel Ave. Brgy. San Antonio Davao City.<br/><strong>Mall Hours</strong>:<br/>Mon-Sun 10am - 9pm</p>"
+          }
+        },
+        "store_9Diyax": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G SM Mall of Asia",
+            "latitude": "14.53550450730881",
+            "longitude": "120.98200286912082",
+            "content": "<p><strong>Address: <br/></strong>366 SM Mall of Asia bldg., JW Diokno Blvd st., Zone 10 Brgy 076 Pasay City<br/><strong>Mall Hours</strong>:<br/>Mon-Sun 10am-10pm</p>"
+          }
+        },
+        "2ce63f38-0ba2-4853-852b-537b0fe2eb33": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G SM Megamall",
+            "latitude": "14.583903762240396",
+            "longitude": "121.0572211492749",
+            "content": "<p><strong>Address: <br/></strong>Unit 322 3RD floor Mega B Megamall  dona Julia Vargas Ave., Mandaluyong City 1550<br/><strong>Mall Hours</strong>:<br/>Mon-Sun 10am - 10pm</p>"
+          }
+        },
+        "store_e4jmCV": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G SM Seaside City Cebu",
+            "latitude": "10.281851956763875",
+            "longitude": "123.88103558709102",
+            "content": "<p><strong>Address: <br/></strong>2nd Level SM Seaside, City Mall,Srp, Mambaling, Cebu City<br/><strong>Mall Hours</strong>:<br/>Mon-Thu 10am-9pm<br/>Fri-Sun 10am- 10pm</p>"
+          }
+        },
+        "store_Pn8mhH": {
+          "type": "store",
+          "settings": {
+            "heading": "Just G U.P. Town Center",
+            "latitude": "14.650610153889255",
+            "longitude": "121.07521335490942",
+            "content": "<p><strong>Address: <br/></strong>B 172,UP Town Center , Katipunan Avenue, Pansol 3 Quezon City<br/><strong>Mall Hours</strong>:<br/>Mon-Thu 10am-9pm<br/>Fri-Sun 10am- 10pm</p>"
+          }
+        },
+        "store_9Q4FxM": {
+          "type": "store",
+          "settings": {
+            "heading": "(Department Stores) Landmark Festival Mall",
+            "latitude": "14.417496537492818",
+            "longitude": "121.04062257612297",
+            "content": ""
+          }
+        },
+        "store_TXFJdH": {
+          "type": "store",
+          "settings": {
+            "heading": "(Department Stores) Landmark Trinoma",
+            "latitude": "14.653629463620502",
+            "longitude": "121.03281662067317",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "store_wdYHXW",
+        "store_VLFwqd",
+        "store_Qwph3d",
+        "store_jftr3x",
+        "store_bHhqmN",
+        "ebe283f8-17e8-4ea4-a66c-edb505cbef27",
+        "store_JRcUzD",
+        "store_4EKpaD",
+        "store_tyFFe3",
+        "store_BrYpBR",
+        "store_f743hw",
+        "store_7NwF7Y",
+        "store_gx3Mpr",
+        "store_9Diyax",
+        "2ce63f38-0ba2-4853-852b-537b0fe2eb33",
+        "store_e4jmCV",
+        "store_Pn8mhH",
+        "store_9Q4FxM",
+        "store_TXFJdH"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "access_token": "pk.eyJ1IjoianVzdGciLCJhIjoiY200Y2FnYmhwMDhxODJpcTFhN2k5eHF4ciJ9.tJ5Tot4jUnIbWGg3gSNvhg",
+        "enable_searchbox": false,
+        "style_map": "outdoors",
+        "zoom": 10,
+        "pitch": 55,
+        "img_marker": "shopify://shop_images/Just_G_Logo_Black.jpg",
+        "color_marker": "#ff4e00",
+        "mg": ",,60px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": "100",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main"
+  ]
+}

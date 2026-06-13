@@ -1,0 +1,525 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "slideshow_Ryr8Tx": {
+      "type": "slideshow",
+      "blocks": {
+        "image_parent_7y4T8J": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify://shop_images/rectangle_662.webp",
+            "image_mb": "shopify://shop_images/rectangle_1660_4.webp",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "start",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "image_parent_7y4T8J"
+      ],
+      "settings": {
+        "se_height": "t4s_ratioadapt",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "eff": "slide",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_icon": "0",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_position": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_HfA3BY": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_ctMwMx": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "30,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "For Physical Store Exchange",
+            "font_size_heading": 44,
+            "text": "<ul><li>An item purchased at justg.com.ph in the Philippines may be exchanged at any Just G boutique in the Philippines. </li><li>To request an exchange, please contact our Customer Service Support via our <a href=\"https://www.facebook.com/JustGPhilippines/\" target=\"_blank\" title=\"https://www.facebook.com/JustGPhilippines/\">Facebook Page</a> or via email at <a href=\"mailto:justask@justg.com.ph\">justask@justg.com.ph</a></li><li>Visit our <a href=\"https://justg.com.ph/pages/just-g-stores\">Stores List</a> to choose your preferred branch.</li><li>Customer must present a printed version or a screenshot of the order confirmation email.</li><li>Exchange requests without confirmation from our Customer Service Support will not be accommodated. </li><li>Ask for assistance from one of our store staff to process the exchange. any company-owned Just G boutique near you.<br/></li><li>Print or take a screenshot of the order confirmation email that was sent to you.<br/></li><li>Visit the nearest Just G Boutique in your area. Click here for the <a href=\"/pages/just-g-stores\" target=\"_blank\" title=\"BOUTIQUE STORES\">Stores List.</a><br/></li><li>Ask for assistance from one of our store staff to process the exchange and present your order confirmation<br/></li></ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#000000",
+            "des_color": "#000000",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_ctMwMx"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 0,
+        "space_h_item": "0",
+        "space_v_item": "0",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_zgmzNy": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_eg9yi3": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "30,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Gift Exchange",
+            "font_size_heading": 44,
+            "text": "<ul><li>An item ordered as a gift at justg.com.ph can be exchanged at any Just G boutique in the Philippines. </li><li>To request an exchange, please contact our Customer Service Support via our <a href=\"https://www.facebook.com/JustGPhilippines/\" target=\"_blank\" title=\"https://www.facebook.com/JustGPhilippines/\">Facebook Page</a> or via email at <strong> </strong><a href=\"mailto:justask@justg.com.ph\">justask@justg.com.ph</a>. </li><li>Kindly indicate the reason for request and include a photo of the waybill and a photo of the received item.</li><li>Visit our <a href=\"https://justg.com.ph/pages/just-g-stores\">Stores List</a> to choose your preferred branch.</li><li>Gift Exchange requests without confirmation from our Customer Service Support will not be accommodated. </li></ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#000000",
+            "des_color": "#000000",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_eg9yi3"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "0",
+        "space_v_item": "0",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_j33hPr": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_eHzLXq": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "30,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Exchange via Courier Service",
+            "font_size_heading": 44,
+            "text": "<ul><li>An item purchased at justg.com.ph may be exchanged via the customer’s preferred  courier service.</li><li>To request an exchange, please contact our Customer Service Support via our <span style=\"text-decoration:underline\">Facebook Page</span> or via email at <a href=\"mailto:justask@justg.com.ph\">justask@justg.com.ph</a>. </li><li>We do not entertain self drop-off and self pick-up at our warehouse.</li><li>Exchange requests without confirmation from our Customer Service Support will not be accommodated. </li><li>All exchange requests will undergo evaluation to confirm the condition of the item/s.</li><li>The total shipping cost for the entire exchange process will be shouldered by the customer.</li></ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#000000",
+            "des_color": "#000000",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_eHzLXq"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_gK6M4c": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_nfYRtX": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "30,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Reminders",
+            "font_size_heading": 44,
+            "text": "<ul><li>Exchange must be processed within the return timeframe: 14 days after delivery for apparel, and 5 days after delivery for bags and accessories.</li><li>Item/s for exchange must be unused and unwashed with all tags and labels still attached.  </li><li>We cannot guarantee the availability of the requested item/s as stocks may vary. In cases of unavailability, our Customer Service Support will be in touch with the customer.</li><li>The customer may exchange the item they received for a different item of the same price. If the replacement item is of higher price, the customer shall pay for the amount difference. If the customer chooses to exchange it with a lower-priced item, the excess amount will be forfeited. </li><li>Exchange is valid for regular items only.  Requests to exchange bundle items and sale items will not be accommodated, unless there are damages or defects on the item/s. </li><li>Accessories are not valid for exchange due to sanitary reasons.</li><li>For exchanges with reasons not included in the list above (e.g. change of size, etc.), the customer shall shoulder all shipping costs.  </li></ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#000000",
+            "des_color": "#000000",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_nfYRtX"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_n8aHx9": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_WFHhhQ": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "30,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Valid Reasons for Exchange",
+            "font_size_heading": 44,
+            "text": "<ul><li>Items received are damaged or have defects.</li><li>Items received do not match their product descriptions.</li><li>Delivered items do not match the product description of ordered items.</li><li>Items delivered are incomplete or missing essential parts.  </li></ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#000000",
+            "des_color": "#000000",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_WFHhhQ"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_FjGkxB": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_q3E84k": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "30,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Invalid Reasons for Exchange",
+            "font_size_heading": 44,
+            "text": "<p>Exchange may be rejected if the request is non-compliant with the policy. Please take note that the following are invalid reasons for exchange:</p><ul><li><strong>Change of mind </strong>- The customer decides they no longer want or need the product they received.</li><li><strong>Dissatisfaction </strong>- The customer is unsatisfied even though they received the correct item, exactly as described on the product page, with no missing parts or damage.</li></ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#000000",
+            "des_color": "#000000",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_q3E84k"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "custom_liquid_mJPhkp": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(1px, 1px, 1px, 1px);\">\n    Exchange Policy\n</h1>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "slideshow_Ryr8Tx",
+    "image_text_HfA3BY",
+    "image_text_zgmzNy",
+    "image_text_j33hPr",
+    "image_text_gK6M4c",
+    "image_text_n8aHx9",
+    "image_text_FjGkxB",
+    "sidebar-page",
+    "custom_liquid_mJPhkp"
+  ]
+}

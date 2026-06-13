@@ -1,0 +1,218 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "disabled": true,
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "tabs_collection_PPWVhe": {
+      "type": "tabs-collection",
+      "blocks": {
+        "tab_item_inrWVx": {
+          "type": "tab_item",
+          "settings": {
+            "title": "P1,100",
+            "icon_title": "",
+            "collection": "buy-2-for-1100",
+            "product_des": "1",
+            "show_vendor": false,
+            "use_cdt": false,
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "content_align": "start",
+            "limit": 12,
+            "col_dk": "4",
+            "col_tb": "3",
+            "col_mb": "2",
+            "space_h_item": "30",
+            "space_v_item": "30",
+            "space_h_item_mb": "10",
+            "space_v_item_mb": "10",
+            "layout_des": "1",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btns_pos": "default",
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false,
+            "use_pagination": "load-more",
+            "enable_bar_lm": true,
+            "btn_icon": true,
+            "button_style": "default",
+            "btns_size": "medium",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "btn_pos": "t4s-text-center"
+          }
+        },
+        "tab_item_dFKHKD": {
+          "type": "tab_item",
+          "settings": {
+            "title": "P1,300",
+            "icon_title": "",
+            "collection": "buy-2-for-1-300",
+            "product_des": "1",
+            "show_vendor": false,
+            "use_cdt": false,
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "content_align": "start",
+            "limit": 12,
+            "col_dk": "4",
+            "col_tb": "3",
+            "col_mb": "2",
+            "space_h_item": "30",
+            "space_v_item": "30",
+            "space_h_item_mb": "10",
+            "space_v_item_mb": "10",
+            "layout_des": "1",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btns_pos": "default",
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false,
+            "use_pagination": "load-more",
+            "enable_bar_lm": true,
+            "btn_icon": true,
+            "button_style": "default",
+            "btns_size": "medium",
+            "btns_cl": "dark",
+            "button_effect": "default",
+            "btn_pos": "t4s-text-center"
+          }
+        }
+      },
+      "block_order": [
+        "tab_item_inrWVx",
+        "tab_item_dFKHKD"
+      ],
+      "name": "Tabs collection",
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Any 2 for 1,100 | 1,300",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "tabs_des": "border-bg",
+        "tabs_border": "solid",
+        "item_rounded": false,
+        "item_cl": "#222222",
+        "item_bg": "",
+        "item_cl_active": "#fff",
+        "item_bg_active": "#222222",
+        "space_between": 30,
+        "tabs_pos": "center",
+        "tabslist_mb": 30,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",30px,,30px",
+        "pd": "50px,,50px,",
+        "mg_tb": ",20px,,20px",
+        "pd_tb": "50px,,50px,",
+        "mg_mb": ",10px,,10px",
+        "pd_mb": "50px,,50px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "sidebar-page",
+    "tabs_collection_PPWVhe"
+  ]
+}

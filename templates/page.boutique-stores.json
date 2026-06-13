@@ -1,0 +1,221 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "1_KmQjLr": {
+          "type": "1",
+          "settings": {
+            "heading": "",
+            "fontf": "2",
+            "text_cl": "#222222",
+            "text_fs": 40,
+            "text_lh": 0,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 40,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "1_KmQjLr"
+      ],
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#ffffff",
+        "overlay": 54,
+        "padding": 0,
+        "paddingmb": 20,
+        "mg_b": 50,
+        "mg_bmb": 20,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "image_text_pVGYzm": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_dFHcjH": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "Boutiques",
+            "font_size_heading": 30,
+            "text": "<p><strong>Abreeza Mall Davao </strong><br/>2/F<br/><br/><strong>Alabang Town Center</strong><br/>L2<br/><br/><strong>Ayala Capitol Central Bacolod</strong><br/>2/F<br/><br/><strong>Ayala Center Cebu</strong><br/>2/F<br/><br/><strong>Eastwood City</strong><br/>2/F<br/><br/><strong>Glorietta 2</strong><br/>L2<br/><br/><strong>Shangri-La</strong><br/>L4<br/><br/><strong>SM City Clark</strong><br/>L1<br/><br/><strong>SM City Fairview</strong><br/>L1<br/><br/><strong>SM City Iloilo</strong><br/>L2<br/><br/><strong>SM City San Lazaro</strong><br/>L2<br/><br/><strong>SM Lanang</strong><br/>L2<br/><br/><strong>SM Mall of Asia, Main Mall</strong><br/>L3<br/><br/><strong>SM Seaside City Cebu</strong><br/>L2<br/><br/><strong>U.P. Town Center</strong><br/>G/F</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#222222",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_dFHcjH"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_XKpXRc": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_XCqi7m": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "Department Stores",
+            "font_size_heading": 30,
+            "text": "<p><strong>Landmark Festival Mall</strong><br/>Upper G/F<br/><br/><strong>Landmark Makati<br/></strong>2/F<br/><br/><strong>Landmark Trinoma</strong><br/>2/F<br/><br/><strong>SM Araneta City</strong><br/>2/F<br/><br/><strong>SM City Makati</strong><br/>3/F<br/><br/><strong>SM City North EDSA</strong><br/>3/F<br/><br/><strong>SM City Pampanga</strong><br/>G/F<br/><br/><strong>SM Southmall</strong><br/>UG/F</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#222222",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_XCqi7m"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "image_text_pVGYzm",
+    "image_text_XKpXRc",
+    "sidebar-page"
+  ]
+}

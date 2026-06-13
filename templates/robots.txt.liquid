@@ -1,0 +1,18 @@
+# we use Shopify as our ecommerce platform
+
+{% for group in robots.default_groups %}
+  {{- group.user_agent -}}
+
+  {% for rule in group.rules %}
+    {{- rule -}}
+  {% endfor %}
+
+  Disallow: /*filter.v.*
+  Disallow: /*?filter*
+  Disallow: /*?sort_by=*
+  Disallow: /search
+
+  {%- if group.sitemap != blank -%}
+    {{ group.sitemap }}
+  {%- endif -%}
+{% endfor %}

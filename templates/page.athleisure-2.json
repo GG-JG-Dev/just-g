@@ -1,0 +1,1138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "slideshow_dV4K6b": {
+      "type": "slideshow",
+      "blocks": {
+        "image_parent_NYwHEf": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify://shop_images/group_640_5.webp",
+            "image_mb": "shopify://shop_images/bg_9.webp",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "start",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "image_parent_NYwHEf"
+      ],
+      "settings": {
+        "se_height": "t4s_ratioadapt",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "eff": "slide",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_icon": "0",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_position": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "top_heading_WbzVxA": {
+      "type": "top_heading",
+      "blocks": {
+        "bl_heading_UnYfhp": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "NEW ARRIVALS"
+          }
+        },
+        "bl_subheading_DigCit": {
+          "type": "bl_subheading",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Best theme shopify"
+          }
+        }
+      },
+      "block_order": [
+        "bl_heading_UnYfhp",
+        "bl_subheading_DigCit"
+      ],
+      "name": "Top heading",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "collection_products_banner_8HQebk": {
+      "type": "collection-products-banner",
+      "blocks": {
+        "b_item_wjDbCE": {
+          "type": "b_item",
+          "settings": {
+            "image": "shopify://shop_images/ATHLEISURE_2_CATALOG_VIDEOS_BLUE_1.gif",
+            "image_mb": "shopify://shop_images/ATHLEISURE_2_CATALOG_VIDEOS_BLUE_1.gif",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "custom_height": 500,
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "custom_text_VfnEAG": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "text": "LOOKBOOK 2023",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 24,
+            "text_lh": 0,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_aYtCVi": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "text": "MAKE LOVE THIS LOOK",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#000000",
+            "text_fs": 14,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "b_item_wjDbCE",
+        "custom_text_VfnEAG",
+        "custom_text_aYtCVi"
+      ],
+      "name": "Products with banner",
+      "settings": {
+        "coll_pos": "right",
+        "collection": "athleisure-girls",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "limit": 4,
+        "col_dk": 2,
+        "col_tb": 2,
+        "col_mb": 2,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "collection_products_deal_8BtpDk": {
+      "type": "collection-products-deal",
+      "blocks": {
+        "product_RM3Byj": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/nylon-jersey-halter-tank-top-with-racer-back",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_LpYYXz": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/cotton-fleece-half-zip-cropped-pullover",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_FWahrB": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/nylon-jersey-baby-tee-with-twisted-back-detail",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_7arntJ": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/brushed-terry-cropped-zip-up-track-jacket-with-stripe-detail-eggnog",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_bb34NW": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/highwaisted-nylon-jersey-flouncy-tennis-skort",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_TRXYaC": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/highwaisted-nylon-bermuda-shorts",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_EFV36y": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/high-waisted-cotton-fleece-straight-leg-track-pants-with-cargo-pockets",
+            "total": 100,
+            "available": 75
+          }
+        }
+      },
+      "block_order": [
+        "product_RM3Byj",
+        "product_LpYYXz",
+        "product_FWahrB",
+        "product_7arntJ",
+        "product_bb34NW",
+        "product_TRXYaC",
+        "product_EFV36y"
+      ],
+      "settings": {
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "cd_txt": "End in:",
+        "date": "",
+        "cl_text": "#ffffff",
+        "bg_cdt": "#e4573d",
+        "tophead_mb": 30,
+        "section_layout": "1",
+        "layout_border": false,
+        "box_border_r": 0,
+        "box_border_cl": "#ffffff",
+        "product_des": "2",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "pr_limit": 8,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "show_stock_bar": false,
+        "txt_sold": "Sold:",
+        "txt_avai": "Available:",
+        "cl_stock_1": "#4e97fd",
+        "cl_stock_2": "#77ccfd",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 3.5,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,15px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "slideshow_bdRmc3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_parent_8nNXBB": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify://shop_images/group_640_3.webp",
+            "image_mb": "shopify://shop_images/group_644_3.webp",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "start",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "image_parent_8nNXBB"
+      ],
+      "disabled": true,
+      "settings": {
+        "se_height": "t4s_ratioadapt",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "eff": "slide",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_icon": "0",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_position": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,30px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,0px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "background_video_zJknxx": {
+      "type": "background_video",
+      "blocks": {
+        "custom_text_RdaMaQ": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "text": "Theme Kalles",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 1,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_LbQpQg": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "text": "Best shopify theme",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 70,
+            "text_lh": 70,
+            "text_fw": 300,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_button_h37AzE": {
+          "type": "custom_button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Button label",
+            "button_link": "",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#222222",
+            "second_cl": "#ffffff",
+            "pri_cl_hover": "#56cfe1",
+            "second_cl_hover": "#ffffff",
+            "fsbutton": 14,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 0,
+            "button_pd_lr": 20,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 10,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "custom_text_RdaMaQ",
+        "custom_text_LbQpQg",
+        "custom_button_h37AzE"
+      ],
+      "settings": {
+        "se_height": "t4s_ratio_cuspx",
+        "custom_dk": true,
+        "height_dk": 750,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 500,
+        "source": "3",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "file_link": "https://cdn.shopify.com/s/files/1/0610/5209/2628/files/Share_your_brand_story_by_adding_a_video_to_your_store.mp4?v=1641630446",
+        "video": "shopify://files/videos/JG ATLEISURE v2 (FINAL).mp4",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "auto",
+        "cv_pos": 50,
+        "ch_pos": 50,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000000",
+        "bg_opacity": 0,
+        "bg_content_cl": "#ffffff",
+        "bg_content_op": 0,
+        "content_pd_tb": 15,
+        "content_pd_lr": 15,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 10,
+        "border_bl": false,
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 20,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "collection_products_deal_aBnkzX": {
+      "type": "collection-products-deal",
+      "blocks": {
+        "product_cFaLqH": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/corset-like-ribbed-tank-top",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_rehw3B": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/flared-microterry-pants2",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_3UDpcT": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/double-zip-cropped-hoodie",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_LhBNkG": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/straight-leg-cargo-pants-with-stripe-detail",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_f8Mwhz": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/pull-up-cargo-midi-skirt-with-pockets",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_jAnng3": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/slim-fit-baby-tee-with-cut-and-sew-detail",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_A7Dt3A": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/double-zip-cropped-hoodie2",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_FhPaax": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/flared-microterry-pants",
+            "total": 100,
+            "available": 75
+          }
+        }
+      },
+      "block_order": [
+        "product_cFaLqH",
+        "product_rehw3B",
+        "product_3UDpcT",
+        "product_LhBNkG",
+        "product_f8Mwhz",
+        "product_jAnng3",
+        "product_A7Dt3A",
+        "product_FhPaax"
+      ],
+      "settings": {
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "cd_txt": "End in:",
+        "date": "",
+        "cl_text": "#ffffff",
+        "bg_cdt": "#e4573d",
+        "tophead_mb": 30,
+        "section_layout": "1",
+        "layout_border": false,
+        "box_border_r": 0,
+        "box_border_cl": "#ffffff",
+        "product_des": "2",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "pr_limit": 8,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "show_stock_bar": false,
+        "txt_sold": "Sold:",
+        "txt_avai": "Available:",
+        "cl_stock_1": "#4e97fd",
+        "cl_stock_2": "#77ccfd",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "slideshow_iPfmpi": {
+      "type": "slideshow",
+      "blocks": {
+        "image_parent_FjkXpz": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify://shop_images/justg_womens_athleisure_activewear_sportswear_desktop_1.webp",
+            "image_mb": "shopify://shop_images/athleisure_sportswear_activewear_fashion_performance_mobile.webp",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "start",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "image_parent_FjkXpz"
+      ],
+      "settings": {
+        "se_height": "t4s_ratioadapt",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "eff": "slide",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_icon": "0",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_position": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "collection_products_deal_NhwCCz": {
+      "type": "collection-products-deal",
+      "blocks": {
+        "product_3r4VCT": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/cropped-boyfriend-fit-track-jacket",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_hiJHdN": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/v-neck-tank-top-with-contrast-band-and-ribbing-detail",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_7pRdMW": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/corset-like-ribbed-tank-top2",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_iJtAEg": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/boxy-fit-pullover-with-cargo-pockets",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_mmybtH": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/slim-fit-baby-tee-with-cut-and-sew-detail2",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_ARYYWk": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/pleated-tennis-skort",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_nXJa89": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/square-neck-fitted-top",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_ePD6yq": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/square-neck-fitted-top2",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_4cQ9qK": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_NGPych": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify://products/v-neck-tank-top-with-contrast-band-and-ribbing-detail2",
+            "total": 100,
+            "available": 75
+          }
+        }
+      },
+      "block_order": [
+        "product_3r4VCT",
+        "product_hiJHdN",
+        "product_7pRdMW",
+        "product_iJtAEg",
+        "product_mmybtH",
+        "product_ARYYWk",
+        "product_nXJa89",
+        "product_ePD6yq",
+        "product_4cQ9qK",
+        "product_NGPych"
+      ],
+      "settings": {
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "cd_txt": "End in:",
+        "date": "",
+        "cl_text": "#ffffff",
+        "bg_cdt": "#e4573d",
+        "tophead_mb": 30,
+        "section_layout": "1",
+        "layout_border": false,
+        "box_border_r": 0,
+        "box_border_cl": "#ffffff",
+        "product_des": "2",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "pr_limit": 17,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "show_stock_bar": false,
+        "txt_sold": "Sold:",
+        "txt_avai": "Available:",
+        "cl_stock_1": "#4e97fd",
+        "cl_stock_2": "#77ccfd",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "custom_liquid_4QX4Uf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(1px, 1px, 1px, 1px);\">\n    Athleisure Collection\n</h1>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "slideshow_dV4K6b",
+    "top_heading_WbzVxA",
+    "collection_products_banner_8HQebk",
+    "collection_products_deal_8BtpDk",
+    "slideshow_bdRmc3",
+    "background_video_zJknxx",
+    "collection_products_deal_aBnkzX",
+    "slideshow_iPfmpi",
+    "collection_products_deal_NhwCCz",
+    "sidebar-page",
+    "custom_liquid_4QX4Uf"
+  ]
+}
