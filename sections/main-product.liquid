@@ -1349,8 +1349,7 @@
 
                   <style>
                     .t4s-accordion-block {
-                      border-top: 1px solid var(--t4s-border-color, #e8e8e8);
-                      border-bottom: 1px solid var(--t4s-border-color, #e8e8e8);
+                      border-bottom: 2px solid var(--t4s-border-color, rgb(224, 215, 215));
                       margin-bottom: -1px;
                       color: #212121;
                     }
@@ -1382,9 +1381,6 @@
                     }
                     .t4s-accordion-block details[open] .t4s-accordion-block__icon-plus .t4s-icon-minus {
                       display: block;
-                    }
-                    .t4s-accordion-block__content {
-                      padding-bottom: 14px;
                     }
                   </style>
 
@@ -1435,6 +1431,7 @@
                           </span>
                         {%- endif -%}
                       </summary>
+
                       <div class="t4s-accordion-block__content t4s-rte">
                         {%- if bk_stts.content != blank -%}
                           {{ bk_stts.content }}
@@ -1450,10 +1447,8 @@
                 {%- when 'accordion_info' -%}
                   <style>
                     .t4s-accordion-info {
-                      border-top: 1px solid var(--t4s-border-color, #e8e8e8);
-                      border-bottom: 1px solid var(--t4s-border-color, #e8e8e8);
+                      border-bottom: 2px solid var(--t4s-border-color, rgb(224, 215, 215));
                       margin-bottom: -1px;
-                      transition: transform 0.3s ease;
                       color: #212121;
                     }
                     .t4s-accordion-info details summary {
