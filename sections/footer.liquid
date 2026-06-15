@@ -1214,6 +1214,75 @@
       ]
     },
     {
+      "type": "icon_text",
+      "name": "Icon + Text",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text",
+          "default": "Your text here"
+        },
+        {
+          "type": "html",
+          "id": "icon_svg",
+          "label": "Icon (SVG code)",
+          "info": "Paste your SVG icon markup here. The icon will be sized automatically."
+        },
+        {
+          "type": "select",
+          "id": "icon_position",
+          "label": "Icon position",
+          "options": [
+            { "value": "start", "label": "Before text" },
+            { "value": "end", "label": "After text" }
+          ],
+          "default": "start"
+        },
+        {
+          "type": "number",
+          "id": "icon_size",
+          "label": "Icon size (px)",
+          "default": 20
+        },
+        {
+          "type": "number",
+          "id": "icon_gap",
+          "label": "Gap between icon and text (px)",
+          "default": 8
+        },
+        {
+          "type": "select",
+          "id": "tag",
+          "label": "HTML tag",
+          "default": "p",
+          "options": [
+            { "value": "p",   "label": "P"   },
+            { "value": "div", "label": "DIV" },
+            { "value": "span","label": "SPAN"}
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "hidden_mobile",
+          "label": "Hidden on mobile",
+          "default": false
+        },
+        {
+          "type": "number",
+          "id": "mgb",
+          "label": "Margin bottom (px)",
+          "default": 15
+        },
+        {
+          "type": "number",
+          "id": "mgb_mb",
+          "label": "Margin bottom on mobile (px)",
+          "default": 10
+        }
+      ]
+    },
+    {
       "type": "html",
       "name": "HTML",
       "settings": [
