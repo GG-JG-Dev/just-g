@@ -999,7 +999,7 @@
                       {%- assign svg_width = svg_height | times: 1.57446809 | ceil -%}
                       {%- assign arr = bk_stts.svg | remove: ' ' | split: "," -%}
                       {%- for img in arr -%}
-                        <img width="{{ svg_width }}" height="{{ svg_height }}" class="t4s-img-tr__svg lazyloadt4s" src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg" data-src="{{ img | payment_type_img_url }}" alt="{{ img | replace: '_', ' ' }}">
+                        <img width="{{ svg_width }}" height="{{ svg_height }}" class="t4s-img-tr__svg lazyloadt4s" src="https://cdn.shopify.com/s/assets/payment_icons/generic-dfdcaf09b6731ca14dd7441354c0ad8bc934184eb15ae1fda6a6b9e307675485.svg" data-src="https://ltqkbcrwnspjtwmmvlfk.supabase.co/storage/v1/object/public/gingersnaps_images/{{img}}.svg" alt="{{ img | replace: '_', ' ' }}">
                       {%- endfor -%}
                     {%- endif -%}
                   {%- endcapture -%}
