@@ -1443,6 +1443,79 @@
                       </div>
                     </details>
                   </div>
+                  <script>
+                    (function () {
+                      class AccordionInfo extends HTMLElement {
+                        connectedCallback() {
+                          this.details = this.querySelector('details');
+                          this.summary = this.querySelector('summary');
+                          this.body = this.querySelector('.t4s-accordion-block__content');
+
+                          if (!this.details || !this.summary || !this.body) return;
+
+                          this.isAnimating = false;
+                          this.summary.addEventListener('click', (e) => this._handleClick(e));
+                        }
+
+                        _handleClick(e) {
+                          e.preventDefault();
+                          if (this.isAnimating) return;
+
+                          this.details.open ? this._close() : this._open();
+                        }
+
+                        _open() {
+                          this.details.open = true;
+                          this.isAnimating = true;
+                          const height = this.body.scrollHeight + 'px';
+
+                          this.body.style.height = '0px';
+                          this.body.style.overflow = 'hidden';
+
+                          requestAnimationFrame(() => {
+                            this.body.style.transition = 'height 0.35s ease';
+                            this.body.style.height = height;
+
+                            this.body.addEventListener(
+                              'transitionend',
+                              () => {
+                                this.body.style.height = '';
+                                this.body.style.overflow = '';
+                                this.body.style.transition = '';
+                                this.isAnimating = false;
+                              },
+                              { once: true }
+                            );
+                          });
+                        }
+
+                        _close() {
+                          this.isAnimating = true;
+                          this.body.style.height = this.body.scrollHeight + 'px';
+                          this.body.style.overflow = 'hidden';
+
+                          requestAnimationFrame(() => {
+                            this.body.style.transition = 'height 0.35s ease';
+                            this.body.style.height = '0px';
+
+                            this.body.addEventListener(
+                              'transitionend',
+                              () => {
+                                this.details.open = false;
+                                this.body.style.height = '';
+                                this.body.style.overflow = '';
+                                this.body.style.transition = '';
+                                this.isAnimating = false;
+                              },
+                              { once: true }
+                            );
+                          });
+                        }
+                      }
+
+                      customElements.define('t4s-accordion-info', AccordionInfo);
+                    })();
+                  </script>
 
                 {%- when 'accordion_info' -%}
                   <style>

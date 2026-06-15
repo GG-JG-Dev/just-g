@@ -46,18 +46,6 @@
             "price_sale_color": "#ec0101"
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "des": "2",
-            "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.</p>",
-            "readm": false,
-            "length": 31,
-            "readm_txt": "Read more",
-            "readl_txt": "Read less"
-          }
-        },
         "form": {
           "type": "form",
           "settings": {
@@ -94,19 +82,6 @@
             "advance_pr_list": []
           }
         },
-        "23551ebc-3be1-40d6-81b2-30f03478cccb": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "al": "start",
-            "mess": "",
-            "size": 16,
-            "source": "1",
-            "wimg": 70,
-            "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-            "height": 11
-          }
-        },
         "size_delivery_ask": {
           "type": "size_delivery_ask",
           "settings": {
@@ -121,6 +96,40 @@
             "phone": true
           }
         },
+        "accordion_fNmHPR": {
+          "type": "accordion",
+          "settings": {
+            "title": "Description",
+            "content": "{{ product.description }}",
+            "page": "",
+            "custom_liquid": "",
+            "open_default": false,
+            "icon_style": "chevron"
+          }
+        },
+        "accordion_info_8KKzzV": {
+          "type": "accordion_info",
+          "settings": {
+            "title": "Additional Information",
+            "open_default": false,
+            "icon_style": "chevron",
+            "show_type": false,
+            "show_vendor": false,
+            "show_sku": false
+          }
+        },
+        "23551ebc-3be1-40d6-81b2-30f03478cccb": {
+          "type": "img",
+          "settings": {
+            "al": "start",
+            "mess": "",
+            "size": 16,
+            "source": "2",
+            "wimg": 70,
+            "svg": "visa, master, gcash, maya",
+            "height": 30
+          }
+        },
         "meta": {
           "type": "meta",
           "settings": {
@@ -132,26 +141,6 @@
             "show_available": false,
             "show_category": false,
             "show_tags": false
-          }
-        },
-        "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
-          "type": "tab_des",
-          "settings": {
-            "title": "Description"
-          }
-        },
-        "e36839f5-0847-44e2-97d3-2885597bd1ff": {
-          "type": "tab_add",
-          "settings": {
-            "title": "Additional Information"
-          }
-        },
-        "56e67368-7424-4d73-8f14-dacdda4c59be": {
-          "type": "tab_rivui",
-          "disabled": true,
-          "settings": {
-            "title": "Reviews",
-            "review_liquid": "<div id=\"klaviyo-reviews-all\" data-id=\"{{product.id}}\"></div>"
           }
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
@@ -175,14 +164,12 @@
       "block_order": [
         "title",
         "price_review",
-        "description",
         "form",
-        "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
+        "accordion_fNmHPR",
+        "accordion_info_8KKzzV",
+        "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "meta",
-        "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
-        "e36839f5-0847-44e2-97d3-2885597bd1ff",
-        "56e67368-7424-4d73-8f14-dacdda4c59be",
         "94011ade-ec25-4d68-b37a-70660ede49dd"
       ],
       "settings": {

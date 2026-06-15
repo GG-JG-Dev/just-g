@@ -77,8 +77,8 @@
         "image_parent_6pLxBT": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0074_3_colorgraded_1_1.webp",
-            "image_mb": "shopify:\/\/shop_images\/0074_3_colorgraded_2.webp",
+            "image": "shopify://shop_images/0074_3_colorgraded_1_1.webp",
+            "image_mb": "shopify://shop_images/0074_3_colorgraded_2.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -164,8 +164,8 @@
         "image_parent_DrecDg": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/group_181.webp",
-            "image_mb": "shopify:\/\/shop_images\/group_181_1.webp",
+            "image": "shopify://shop_images/group_181.webp",
+            "image_mb": "shopify://shop_images/group_181_1.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -251,8 +251,8 @@
         "image_parent_Be9Ygj": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/group_180.webp",
-            "image_mb": "shopify:\/\/shop_images\/group_180_1.webp",
+            "image": "shopify://shop_images/group_180.webp",
+            "image_mb": "shopify://shop_images/group_180_1.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -338,8 +338,8 @@
         "image_parent_q7bUMF": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/group_179_2.webp",
-            "image_mb": "shopify:\/\/shop_images\/group_179_1.webp",
+            "image": "shopify://shop_images/group_179_2.webp",
+            "image_mb": "shopify://shop_images/group_179_1.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -425,8 +425,8 @@
         "image_parent_xK6dpQ": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0232_1_colorgraded_2.webp",
-            "image_mb": "shopify:\/\/shop_images\/0232_1_colorgraded_2_1.webp",
+            "image": "shopify://shop_images/0232_1_colorgraded_2.webp",
+            "image_mb": "shopify://shop_images/0232_1_colorgraded_2_1.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -510,14 +510,11 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_dyUbqw": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "Instagram Feed",
             "title_color": "#222222",
-            "title_size": 20,
             "alignment": "center",
-            "margin_top": 0,
-            "margin_bottom": 10,
             "html_area": ""
           }
         }
