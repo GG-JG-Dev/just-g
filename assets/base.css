@@ -103,7 +103,31 @@ video {
   width: device-width;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00000083 transparent;
+}
+
 html {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   /* line-height: 1; */
   -ms-overflow-style: scrollbar;
@@ -5134,4 +5158,62 @@ inbox-online-store-chat {
   inbox-online-store-chat[is-open="true"] {
       transform: scale(1);
   } */
+}
+
+#gs-loader {
+  position: fixed;
+  inset: 0;
+  background: #F5EFE6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.gs-loader-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+#gs-flower {
+  transform: scale(0);
+  opacity: 0;
+  transform-origin: center;
+}
+
+.gs-brand {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #2C3A1E;
+  letter-spacing: 0.14em;
+  opacity: 0;
+  transform: translateY(10px);
+  margin: 0;
+}
+
+.gs-tag {
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  color: #7A8C6E;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+.gs-track {
+  width: 100px;
+  height: 1px;
+  background: rgba(90, 122, 58, 0.2);
+  border-radius: 1px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.gs-fill {
+  height: 100%;
+  background: #5A7A3A;
+  width: 0%;
+  border-radius: 1px;
 }
