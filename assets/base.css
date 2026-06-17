@@ -1669,7 +1669,7 @@ em {
   }
 }
 
-@media (min-width: 1528px) {
+@media (min-width: 1441px) {
 
   .t4s-col-lg-custom {
     width: var(--t4s-cus-col-lg, 25%);
@@ -3155,7 +3155,7 @@ em {
   }
 }
 
-@media (min-width: 1528px) {
+@media (min-width: 1441px) {
   .t4s-d-lg-inline {
     display: inline !important;
   }
@@ -3880,7 +3880,7 @@ em {
   }
 }
 
-@media (min-width: 1528px) {
+@media (min-width: 1441px) {
 
   .t4s-text-lg-start {
     text-align: start !important;
