@@ -25,9 +25,9 @@
           "settings": {
             "txt_tr_pr": "none",
             "fnt_df_pr": "1",
-            "size_pr": 16,
-            "fw_pr": 600,
-            "lh_pr": 0,
+            "size_pr": 28,
+            "fw_pr": 500,
+            "lh_pr": 34,
             "ls_pr": 0,
             "pr_title_color": "#222222"
           }
@@ -41,7 +41,7 @@
             "rating": true,
             "review_liquid": "",
             "size_price_pr": 22,
-            "fw_price_pr": 400,
+            "fw_price_pr": 500,
             "price_color": "#696969",
             "price_sale_color": "#ec0101"
           }
@@ -66,11 +66,11 @@
             "button_color": "custom1",
             "button_effect": "rectangle-out",
             "wishlist_color": "#222222",
-            "wishlist_color_hover": "#222222",
-            "wishlist_color_active": "#ff4e00",
+            "wishlist_color_hover": "#D12121",
+            "wishlist_color_active": "#D12121",
             "compare_color": "#222222",
-            "compare_color_hover": "#222222",
-            "compare_color_active": "#ff4e00",
+            "compare_color_hover": "#2F8FDD",
+            "compare_color_active": "#2F8FDD",
             "show_dynamic_checkout": true,
             "btn_txt2": "3",
             "button_color_payment": "primary",
@@ -103,7 +103,7 @@
             "content": "{{ product.description }}",
             "page": "",
             "custom_liquid": "",
-            "open_default": false,
+            "open_default": true,
             "icon_style": "chevron"
           }
         },
@@ -116,18 +116,6 @@
             "show_type": false,
             "show_vendor": false,
             "show_sku": false
-          }
-        },
-        "23551ebc-3be1-40d6-81b2-30f03478cccb": {
-          "type": "img",
-          "settings": {
-            "al": "start",
-            "mess": "",
-            "size": 16,
-            "source": "2",
-            "wimg": 70,
-            "svg": "visa, master, gcash, maya",
-            "height": 30
           }
         },
         "meta": {
@@ -168,7 +156,6 @@
         "size_delivery_ask",
         "accordion_fNmHPR",
         "accordion_info_8KKzzV",
-        "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "meta",
         "94011ade-ec25-4d68-b37a-70660ede49dd"
       ],
