@@ -1693,7 +1693,7 @@ em {
   }
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1025px) {
 
   .t4s-col-lg-custom {
     width: var(--t4s-cus-col-lg, 25%);
@@ -1759,7 +1759,7 @@ em {
 
   .t4s-col-lg-auto {
     flex: 0 0 auto;
-    width: auto;
+    /* width: auto; */
   }
 
   .t4s-col-lg-1 {
@@ -2015,6 +2015,12 @@ em {
   }
 }
 
+@media (min-width: 1441px) {
+  .t4s-col-lg-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
 /* @media (min-width: 1200px) {
   .t4s-col-xl {
     flex: 1 0 0%;
