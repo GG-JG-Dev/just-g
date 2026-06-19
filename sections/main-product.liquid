@@ -205,6 +205,21 @@
       assign isStickyMB = true
     endif
   endif
+
+  assign clothing_type = ''
+
+  for tag in product.tags
+    case tag
+      when 'Tops'
+        assign clothing_type = 'tops'
+      when 'Dresses', 'Jumpsuits'
+        assign clothing_type = 'dresses_jumpsuits'
+      when 'Skirts', 'Skirt', 'Shorts', 'Short', 'Skorts', 'Skort', 'Boxer Shorts'
+        assign clothing_type = 'skirts_shorts'
+      when 'Pants', 'Pants & Jeans', 'Jeans'
+        assign clothing_type = 'pants'
+    endcase
+  endfor
 -%}
 
 {%- capture html_sizeg -%}
@@ -252,6 +267,11 @@
 {{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
 {{ 'slider-settings.css' | asset_url | stylesheet_tag }}
 {{ 'main-product.css' | asset_url | stylesheet_tag }}
+
+<script>
+  var productTags = {{ product.tags | json }};
+  console.log(productTags);
+</script>
 
 <div class="t4s-container t4s-main-product__content is--layout_{{ se_stts.pr_layout }} t4s-product-media__{{ media_layout }} t4s-product-thumb-size__{{ se_stts.thumb_lr_size }}">
   <div class="t4s-row">
@@ -730,6 +750,7 @@
                     endif
                   -%}
 
+                  {% comment %} anchor {% endcomment %}
                 {%- when 'size_delivery_ask' -%}
                   <div class="t4s-extra-link" {{ block.shopify_attributes }}>
                     {% liquid
@@ -774,20 +795,25 @@
                         >
                           {{- 'products.product.product_size_guide' | t -}}
                         </a>
-                      {%- elsif sc_type == '2' and image != blank and ck_s -%}
-                        <a
-                          class="t4s-ch t4s-btn__size-chart"
-                          data-no-instant
-                          rel="nofollow"
-                          href="{{ product.url }}"
-                          data-t4s-image-opend
-                          data-pswp-src="{{ image | image_url }}"
-                          data-pswp-w="{{ image.width }}"
-                          data-pswp-h="{{ image.height }}"
-                          data-pswp-class="pswp__size-guide"
-                        >
-                          {{- 'products.product.product_size_guide' | t -}}
-                        </a>
+                      {%- elsif sc_type == '2' and ck_s -%}
+                        {%- assign sc_type_key = clothing_type | append: '_sc_image' -%}
+                        {%- assign sc_image = bk_stts__sizeg[sc_type_key] | default: image -%}
+
+                        {%- if sc_image != blank -%}
+                          <a
+                            class="t4s-ch t4s-btn__size-chart"
+                            data-no-instant
+                            rel="nofollow"
+                            href="{{ product.url }}"
+                            data-t4s-image-opend
+                            data-pswp-src="{{ sc_image | image_url }}"
+                            data-pswp-w="{{ sc_image.width }}"
+                            data-pswp-h="{{ sc_image.height }}"
+                            data-pswp-class="pswp__size-guide"
+                          >
+                            {{- 'products.product.product_size_guide' | t -}}
+                          </a>
+                        {%- endif -%}
                       {%- endif -%}
                     {%- endif -%}
 
@@ -3701,6 +3727,26 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image size chart"
+        },
+        {
+          "type": "image_picker",
+          "id": "tops_sc_image",
+          "label": "Tops"
+        },
+        {
+          "type": "image_picker",
+          "id": "dresses_jumpsuits_sc_image",
+          "label": "Dresses & Jumpsuits"
+        },
+        {
+          "type": "image_picker",
+          "id": "skirts_shorts_sc_image",
+          "label": "Skirts & Shorts"
+        },
+        {
+          "type": "image_picker",
+          "id": "pants_sc_image",
+          "label": "Pants"
         },
         {
           "type": "textarea",
