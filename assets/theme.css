@@ -3463,9 +3463,10 @@ border-radius: 50% !important;
 
 #t4s-notices__wrapper {
   position: fixed;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  top: 110px;
+  left: auto;
+  right: 15px;
+  bottom: auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -3474,12 +3475,26 @@ border-radius: 50% !important;
   background-color: var(--t4s-warning-color);
   color: var(--t4s-light-color);
   cursor: pointer;
-  transform: translate3d(0px, 100%, 0px);
+  transform: translate3d(120%, 0px, 0px);
   transition: all 0.35s ease 0s;
   min-height: 60px;
+  min-width: 300px;
+  max-width: 400px;
   padding: 10px 80px 10px 65px;
   border: 0px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  @media (max-width: 426px) {
+    top: 20px;
+    right: auto;
+    bottom: auto;
+    margin: 0 12px 0 12px;
+    transform: translate3d(0px, -150%, 0px);
+  }
 }
+
+
 
 #t4s-notices__wrapper[data-notices-status="success"] {
   background-color: var(--t4s-success-color);
@@ -3490,7 +3505,9 @@ border-radius: 50% !important;
 }
 
 #t4s-notices__wrapper.is--show {
-  transform: none;
+  transform: translate3d(0, 0, 0);
+
+
 }
 
 #t4s-notices__wrapper .t4s-svg {
@@ -3792,6 +3809,11 @@ border-radius: 50% !important;
 .pr_img_effect_5 .t4s-product-inner:hover .t4s-product-hover-img {
   -webkit-transform: scale(1.25) rotate(10deg);
   transform: scale(1.25) rotate(10deg);
+}
+
+.pswp--open .pswp__bg {
+  opacity: 0.6 !important;
+  /* Adjust to taste */
 }
 
 /* ==========================================================================

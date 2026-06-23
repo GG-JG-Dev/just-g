@@ -141,6 +141,7 @@
 
   .t4s-product-media__thumbnails_left .t4s-col-thumb {
     margin-right: 10px;
+    order: -1;
   }
 
   .t4s-product-media__thumbnails_right .t4s-col-thumb {
