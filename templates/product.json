@@ -87,8 +87,12 @@
           "settings": {
             "size_chart": "3",
             "pos_sizeg": "1",
-            "sc_type": "1",
+            "sc_type": "2",
             "page": "product-size-chart",
+            "tops_sc_image": "shopify://shop_images/tops.webp",
+            "dresses_jumpsuits_sc_image": "shopify://shop_images/dress.webp",
+            "skirts_shorts_sc_image": "shopify://shop_images/shorts.webp",
+            "pants_sc_image": "shopify://shop_images/pants.webp",
             "size_ck": "",
             "delivery": true,
             "page_dr": "delivery-return",
