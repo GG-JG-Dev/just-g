@@ -2727,9 +2727,9 @@ header {
   font-size: 10px;
   line-height: 15px;
   box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 30%);
-  opacity: 1;
   transition: .3s ease-in-out;
-  background-color: var(--h-count-bgcolor);
+  /* background-color: var(--h-count-bgcolor); */
+  background-color: #C92727;
   color: var(--h-count-color);
   text-align: center;
   border-radius: 50%;

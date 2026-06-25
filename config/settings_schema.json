@@ -46,6 +46,16 @@
     ]
   },
   {
+    "name": "Collection Badges",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "current_active_collection",
+        "label": "Current Active Collection"
+      }
+    ]
+  },
+  {
     "name": "Dear customers!",
     "settings": [
       {

@@ -5165,3 +5165,7 @@ inbox-online-store-chat {
       transform: scale(1);
   } */
 }
+
+.test {
+  opacity: 1;
+}

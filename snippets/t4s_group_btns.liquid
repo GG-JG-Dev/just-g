@@ -439,7 +439,7 @@
           <svg class="t4s-icon t4s-icon--heart" aria-hidden="true" focusable="false" role="presentation">
             <use href="#icon-h-heart"></use>
           </svg>
-          <span data-count-wishlist class="t4s-pa t4s-op-0 t4s-ts-op t4s-count-box">0</span>
+          <span data-count-wishlist class="t4s-pa t4s-op-0 t4s-ts-op t4s-count-box test">0</span>
         </a>
       {%- else -%}
         {%- capture the_snippet_fave_icon_menu %}{% render 'ssw-widget-faveicon-menu' with product.id %}{% endcapture -%}
@@ -460,7 +460,7 @@
           <svg class="t4s-icon t4s-icon--cart" aria-hidden="true" focusable="false" role="presentation">
             <use href="#icon-h-cart"></use>
           </svg>
-          <span data-cart-count class="t4s-pa t4s-op-0 t4s-ts-op t4s-count-box">{{ cart.item_count }}</span>
+          <span data-cart-count class="t4s-pa t4s-op-0 t4s-ts-op t4s-count-box test">{{ cart.item_count }}</span>
         </span>
         <span class="t4s-h-cart-totals t4s-dn">
           <span class="t4s-h-cart__divider t4s-dn">/</span>

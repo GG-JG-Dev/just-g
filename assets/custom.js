@@ -1,14 +1,14 @@
-jQuery_T4NT(document).ready(function($) {
+jQuery_T4NT(document).ready(function ($) {
 
-     /**
-     *  Variant selection changed
-     *  data-variant-toggle="{{ variant.id }}"
-     */
-	   $( document ).on( "variant:changed", function( evt ) {
-	     // console.log( evt.currentVariant );
-	     // $('[data-variant-toggle]').hide(0);
-	     // $('[data-variant-toggle="'+evt.currentVariant.id+'"]').show(0);
-	   });
+  /**
+  *  Variant selection changed
+  *  data-variant-toggle="{{ variant.id }}"
+  */
+  $(document).on("variant:changed", function (evt) {
+    // console.log( evt.currentVariant );
+    // $('[data-variant-toggle]').hide(0);
+    // $('[data-variant-toggle="'+evt.currentVariant.id+'"]').show(0);
+  });
 });
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -48,11 +48,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function applyArticleCase(selector, datasetKey) {
 
-    document.querySelectorAll(selector).forEach(function(el) {
+    document.querySelectorAll(selector).forEach(function (el) {
 
       if (el.dataset[datasetKey] === 'true') return;
 
-      el.childNodes.forEach(function(node) {
+      el.childNodes.forEach(function (node) {
 
         // Text nodes
         if (node.nodeType === Node.TEXT_NODE) {
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
   updateTextCases();
 
   // Shopify dynamic sections / AJAX content
-  const observer = new MutationObserver(function() {
+  const observer = new MutationObserver(function () {
     updateTextCases();
   });
 
@@ -113,4 +113,25 @@ document.addEventListener('DOMContentLoaded', function () {
     subtree: true
   });
 
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  function updateVisibility(el) {
+    const count = el.textContent.trim();
+    if (count === '0') {
+      el.classList.remove('test');    // fade out
+    } else {
+      el.classList.add('test'); // fade in
+    }
+  }
+
+  document.querySelectorAll('[data-count-wishlist], [data-cart-count]').forEach(function (el) {
+    updateVisibility(el);
+
+    const observer = new MutationObserver(function () {
+      updateVisibility(el);
+    });
+
+    observer.observe(el, { childList: true, subtree: true, characterData: true });
+  });
 });
