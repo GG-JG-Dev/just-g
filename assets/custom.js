@@ -135,3 +135,68 @@ document.addEventListener('DOMContentLoaded', function () {
     observer.observe(el, { childList: true, subtree: true, characterData: true });
   });
 });
+
+//Badges handling: Restoking Soon, Coming Soon, Sold Out
+(() => {
+  // ✅ IIFE prevents debounceTimer redeclaration across multiple renders
+
+  function updateProductBadges() {
+    const cards = document.querySelectorAll('.t4s-product__price-review[data-tags], .t4s-product-wrapper[data-tags]');
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    cards.forEach((card) => {
+      const productTags = card.dataset.tags.split('|');
+      const comingSoonDate = card.dataset.comingSoon;
+      const badge = card.querySelector('.t4s-badge-soldout');
+
+      if (!badge) return;
+
+      let newText = '';
+      let newClass = '';
+
+      // 1. Coming Soon
+      if (comingSoonDate && comingSoonDate.trim() !== '') {
+        const releaseDate = new Date(comingSoonDate);
+        releaseDate.setHours(0, 0, 0, 0);
+
+        if (releaseDate > today) {
+          newText = 'Coming Soon';
+          newClass = 't4s-badge-coming-soon';
+        }
+      }
+
+      // 2. Sold Out
+      if (!newText && productTags.includes('Sold Out')) {
+        newText = 'Sold Out';
+        newClass = 't4s-badge-so-forever';
+      }
+
+      // 3. Default fallback
+      if (!newText) {
+        newText = 'Restocking Soon';
+      }
+
+      // ✅ Only update DOM if text actually changed — prevents infinite observer loop
+      if (badge.textContent !== newText) {
+        badge.textContent = newText;
+        if (newClass) badge.classList.add(newClass);
+      }
+
+      badge.style.visibility = 'visible';
+      badge.style.opacity = '1';
+    });
+  }
+
+  updateProductBadges();
+
+  let debounceTimer; // ✅ Safe inside IIFE — won't conflict across renders
+
+  const observer = new MutationObserver(() => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(updateProductBadges, 100);
+  });
+
+  const target = document.querySelector('.t4s-product-wrapper') || document.body;
+  observer.observe(target, { childList: true, subtree: true });
+})();

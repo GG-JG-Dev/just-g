@@ -784,7 +784,8 @@ button.t4s-product-form__submit[disabled="disabled"] {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px
+  gap: 12px;
+  height: 28px;
 }
 
 .t4s-product__info-container .t4s-product-price {
