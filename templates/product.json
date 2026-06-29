@@ -13,7 +13,7 @@
       "type": "brc-nav-product",
       "settings": {
         "back_next_pr": true,
-        "cl_bg": "#f6f6f6",
+        "cl_bg": "#FFFFFF",
         "cl_link": "#222222"
       }
     },

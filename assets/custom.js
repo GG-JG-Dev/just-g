@@ -200,3 +200,39 @@ document.addEventListener('DOMContentLoaded', function () {
   const target = document.querySelector('.t4s-product-wrapper') || document.body;
   observer.observe(target, { childList: true, subtree: true });
 })();
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  const atcButtons = document.querySelectorAll('[data-atc-form]');
+
+  atcButtons.forEach(function (btn) {
+    const textEl       = btn.querySelector('.t4s-btn-atc_text');
+    const isSoldout    = btn.dataset.isSoldout === 'true';
+    const isComingSoon = btn.dataset.isComingSoon === 'true';
+
+    if (!textEl || (!isSoldout && !isComingSoon)) return;
+
+    // Watch for any text changes made by the min.js
+    const observer = new MutationObserver(function () {
+      const isDisabled = btn.hasAttribute('aria-disabled') || btn.hasAttribute('disabled');
+
+      if (!isDisabled) return; // Product is available, let the theme handle it
+
+      // Temporarily disconnect to avoid infinite loop
+      observer.disconnect();
+
+      if (isComingSoon) {
+        textEl.textContent = 'Coming Soon';
+      } else if (isSoldout) {
+        textEl.textContent = 'Sold Out'; // or your custom text
+      }
+
+      // Reconnect after correction
+      observer.observe(textEl, { childList: true, subtree: true, characterData: true });
+    });
+
+    // Start observing the button text element
+    observer.observe(textEl, { childList: true, subtree: true, characterData: true });
+  });
+
+});
