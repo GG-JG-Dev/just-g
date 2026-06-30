@@ -1,6 +1,6 @@
 .t4s-pagination-wrapper {
     border-top: 1px solid var(--border-color);
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
     text-align: inherit !important;
 }
 .t4s-has-btn-load-more .t4s-pagination-wrapper,
