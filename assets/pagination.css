@@ -29,7 +29,7 @@
     padding: 5px 10px;
 }
 
-.t4s-pagination__list li a:hover,
+.t4s-pagination__list .link:hover,
 .t4s-pagination__list .pagination__item--current {
     color: #000000;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2),
@@ -53,6 +53,6 @@
 
     .t4s-pagination__item {
         margin: 8px 0;
-        padding: 3px 8px;
+        padding: 3px 7px;
     }
 }
