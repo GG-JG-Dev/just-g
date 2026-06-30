@@ -1909,8 +1909,8 @@
             "settings": {
               "heading": "",
               "fontf": "inherit",
-              "text_cl": "#ffffff",
-              "text_fs": 20,
+              "text_cl": "#000000",
+              "text_fs": 28,
               "text_lh": 20,
               "text_fw": 500,
               "text_ls": 0,
@@ -1919,7 +1919,7 @@
               "text_shadow": false,
               "text_mgb": 0,
               "hidden_mobile": false,
-              "text_fs_mb": 20,
+              "text_fs_mb": 24,
               "text_lh_mb": 20,
               "text_ls_mb": 0,
               "text_mgb_mobile": 0
@@ -1930,9 +1930,10 @@
           "heading-template-0"
         ],
         "settings": {
-          "image": "shopify://shop_images/shopping-cart-head.jpg",
+          "heading_fullwidth": false,
+          "use_specify_image": true,
           "parallax": false,
-          "color": "#000000",
+          "color": "#FFFFFF",
           "overlay": 54,
           "padding": 50,
           "paddingmb": 50,
@@ -1958,8 +1959,10 @@
           "main-wishlist-0"
         ],
         "settings": {
+          "product_list": [],
           "product_des": "1",
           "show_vendor": false,
+          "use_cdt": false,
           "image_ratio": "rationt",
           "image_size": "cover",
           "image_position": "8",
@@ -1988,6 +1991,8 @@
           "cl_bg_gradient": "",
           "mg": ",,50px,",
           "pd": "",
+          "mg_tb": "",
+          "pd_tb": "",
           "mg_mb": ",,30px,",
           "pd_mb": ""
         }
@@ -2879,14 +2884,14 @@
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
+          "greeting_message": "",
           "button_color": "#000000",
           "secondary_color": "#ffffff",
           "ternary_color": "#6a6a6a",
           "button_icon": "chat_bubble",
           "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "highest",
-          "greeting_message": ""
+          "button_vertical_position": "highest"
         }
       },
       "1232542678405107163": {

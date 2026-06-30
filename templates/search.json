@@ -134,8 +134,8 @@
           "settings": {
             "heading": "",
             "fontf": "inherit",
-            "text_cl": "#ffffff",
-            "text_fs": 20,
+            "text_cl": "#000000",
+            "text_fs": 28,
             "text_lh": 20,
             "text_fw": 500,
             "text_ls": 0,
@@ -154,15 +154,14 @@
       "block_order": [
         "3b0cc506-49ea-4851-b5a6-ff7c2153b0e6"
       ],
-      "disabled": true,
       "settings": {
         "heading_fullwidth": false,
         "use_specify_image": true,
         "parallax": false,
-        "color": "#222222",
+        "color": "#FFFFFF",
         "overlay": 54,
-        "padding": 50,
-        "paddingmb": 50,
+        "padding": 36,
+        "paddingmb": 30,
         "mg_b": 40,
         "mg_bmb": 10,
         "content_align": "t4s-text-center",
@@ -203,7 +202,7 @@
         "enable_listing": false,
         "enable_listing_default": false,
         "col_dk": "4",
-        "col_tb": "2",
+        "col_tb": "3",
         "col_mb": "2",
         "space_h_item": "20",
         "space_v_item": "30",
@@ -229,11 +228,11 @@
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "00px,20px,00px,20px,",
+        "mg": "00px,20px,30px,20px,",
         "pd": "",
-        "mg_tb": "",
+        "mg_tb": "00px,0px,25px,0px,",
         "pd_tb": "",
-        "mg_mb": "00px,10px,00px,10px,",
+        "mg_mb": "00px,0px,20px,0px,",
         "pd_mb": ""
       }
     },

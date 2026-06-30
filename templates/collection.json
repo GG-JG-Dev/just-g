@@ -250,9 +250,9 @@
         "cl_bg_gradient": "",
         "mg": "0,20px,30px,20px",
         "pd": "",
-        "mg_tb": "0,15px,25px,15px",
+        "mg_tb": "0,0,25px,0",
         "pd_tb": "",
-        "mg_mb": "0,10px,20px,10px",
+        "mg_mb": "0,0,20px,0",
         "pd_mb": ""
       }
     },

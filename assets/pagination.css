@@ -1,11 +1,12 @@
 .t4s-pagination-wrapper {
-    border-top: 1px solid var(--border-color);
+    /* border-top: 1px solid var(--border-color); */
     /* margin-bottom: 60px; */
     text-align: inherit !important;
 }
+
 .t4s-has-btn-load-more .t4s-pagination-wrapper,
 .t4s-has-btn-infinite .t4s-pagination-wrapper {
-    padding-top: 40px; 
+    padding-top: 40px;
 }
 
 .t4s-pagination-wrapper .t4s-pagination__list {
@@ -14,24 +15,44 @@
     margin: 10px 0;
     padding: 5px 10px;
 }
+
 .t4s-pagination-wrapper .t4s-pagination__list li {
     float: left;
     margin: 0 10px;
     color: var(--t4s-dark-color);
 }
+
 .t4s-pagination__item {
     display: inline-block;
     list-style: none;
     margin: 10px 0;
     padding: 5px 10px;
 }
-.t4s-pagination__list li a:hover, .t4s-pagination__list .pagination__item--current {
-    color: #ec0101;
+
+.t4s-pagination__list li a:hover,
+.t4s-pagination__list .pagination__item--current {
+    color: #000000;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2),
+        inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
+
 .t4s-prs-footer .t4s-btn.t4s-loadmore-btn svg.t4s-btn-icon {
-	width: 30px;
+    width: 30px;
     height: 30px;
 }
-.t4s-pagination-wrapper > a {
+
+.t4s-pagination-wrapper>a {
     margin-top: 40px;
+}
+
+@media (max-width: 487px) {
+    .t4s-pagination-wrapper .t4s-pagination__list li {
+        margin: 0 5px;
+    }
+
+    .t4s-pagination__item {
+        margin: 8px 0;
+        padding: 3px 8px;
+    }
 }

@@ -13,7 +13,7 @@
       "type": "brc-nav-product",
       "settings": {
         "back_next_pr": true,
-        "cl_bg": "#FFFFFF",
+        "cl_bg": "#ffffff",
         "cl_link": "#222222"
       }
     },
@@ -317,7 +317,7 @@
         "use_cdt": false,
         "limit": 12,
         "display_type": "3",
-        "image_ratio": "rationt",
+        "image_ratio": "ratio2_3",
         "image_size": "nt_cover",
         "image_position": "8",
         "content_align": "default",
@@ -372,7 +372,7 @@
         "limit": 14,
         "sortby": "1",
         "unavailable_prs": "show",
-        "image_ratio": "rationt",
+        "image_ratio": "ratio2_3",
         "image_size": "cover",
         "image_position": "8",
         "content_align": "default",

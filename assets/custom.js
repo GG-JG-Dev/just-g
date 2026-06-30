@@ -197,17 +197,19 @@ document.addEventListener('DOMContentLoaded', function () {
     debounceTimer = setTimeout(updateProductBadges, 100);
   });
 
-  const target = document.querySelector('.t4s-product-wrapper') || document.body;
+  const target = document.body;
+
   observer.observe(target, { childList: true, subtree: true });
 })();
 
+//ATC Dynamic Content that corresponds to the current badge.
 document.addEventListener('DOMContentLoaded', function () {
 
   const atcButtons = document.querySelectorAll('[data-atc-form]');
 
   atcButtons.forEach(function (btn) {
-    const textEl       = btn.querySelector('.t4s-btn-atc_text');
-    const isSoldout    = btn.dataset.isSoldout === 'true';
+    const textEl = btn.querySelector('.t4s-btn-atc_text');
+    const isSoldout = btn.dataset.isSoldout === 'true';
     const isComingSoon = btn.dataset.isComingSoon === 'true';
 
     if (!textEl || (!isSoldout && !isComingSoon)) return;
